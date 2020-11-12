@@ -1,0 +1,265 @@
+* {
+    margin         : 0;
+    padding        : 0;
+    list-style     : none;
+    text-decoration: none;
+}
+
+.active:hover {
+    color: #c33;
+}
+
+.header_nav li:hover .dpnone {
+    display: block;
+}
+
+.dpnone {
+    display: none;
+}
+
+.high-light-color {
+    color: #c33;
+}
+
+
+/*=========================头部=========================*/
+.header {
+    /* width: 1920px; */
+    height     : 36px;
+    line-height: 36px;
+    background : #ebebeb;
+}
+
+.header .container {
+    width : 1200px;
+    height: 36px;
+    margin: 0 auto;
+}
+
+.header .container span {
+    color     : #b62929;
+    text-align: center;
+}
+
+.header_nav {
+    float   : right;
+    position: relative;
+}
+
+.header_nav li {
+    float : left;
+    margin: 0 20px;
+}
+
+.header_nav li a {
+    color: black;
+}
+
+/*=============顶部列表==========*/
+/*增值服务*/
+.vas-list {
+    width     : 100px;
+    height    : 172px;
+    right     : 100px;
+    top       : 36px;
+    text-align: center;
+    position  : absolute;
+    background: #f3f3f3;
+    border    : 1px solid #ebebeb;
+}
+
+.vas-list span {
+    /* width: 50px;
+    height: 35px;
+    margin: 0 auto;
+    line-height: 35px; */
+    display: block;
+}
+
+/*手机下载*/
+.mobile-vcodet {
+    width     : 100px;
+    height    : 160px;
+    right     : 200px;
+    top       : 36px;
+    position  : absolute;
+    background: #fff;
+    border    : 1px solid #ebebeb;
+}
+
+/*====================中间===========================*/
+/* .content {
+    width: 1920px;
+    height    : 400px;
+    background: hotpink;
+} */
+
+.c_main {
+    width        : 1200px;
+    margin       : 0 auto;
+    /* height    : 400px; */
+    /* background: gray; */
+}
+
+.cm_header {
+    height       : 100px;
+    line-height  : 100px;
+    margin-bottom: 80px;
+}
+
+.cm_logo {
+    float : left;
+    margin: 30px;
+}
+
+.cm_nav {
+    float    : right;
+    font-size: 20px;
+}
+
+.cm_nav li {
+    float : left;
+    margin: 0 20px 0 40px;
+}
+
+.cm_nav li a {
+    color      : black;
+    font-weight: bold;
+}
+
+.cm_content {
+    height       : 550px;
+    margin-bottom: 100px;
+}
+
+.cmc_left {
+    float: left;
+}
+
+
+/*注册*/
+.signin_box {
+    width     : 410px;
+    height    : 550px;
+    margin    : 0 auto;
+    float     : left;
+    overflow  : hidden;
+    background: no-repeat url(https://xoyo.xoyocdn.com/overall/img/bg-sigin-login.1bb8cd17.jpg);
+}
+
+.signin_title {
+    padding-top: 80px;
+    text-align : center;
+}
+
+.sigin-box-item {
+    width : 340px;
+    height: 53px;
+    margin: 20px auto 50px;
+}
+
+.sigin-box-item-icon {
+    height    : 100%;
+    width     : 44px;
+    float     : left;
+    background: #eae2c8;
+    border    : 1px solid #eae2c8;
+}
+
+.sigin-box-item-icon img {
+    margin: 10px;
+}
+
+.sigin-box-item-input {
+    height      : 100%;
+    width       : 77%;
+    float       : left;
+    padding-left: 30px;
+    font-size   : 16px;
+    border      : 1px solid #eae2c8;
+    outline     : none;
+
+}
+
+.sigin-box-item-icon img {
+    vertical-align: middle;
+}
+
+.sigin_btn {
+    width      : 340px;
+    height     : 53px;
+    line-height: 53px;
+    background : #b62929;
+    color      : #fff;
+    margin     : 0 auto;
+    text-align : center;
+}
+
+.sigin_btn a {
+    height     : 53px;
+    line-height: 53px;
+    color      : #fff;
+    font-size  : 24px;
+}
+
+.sigin_operation {
+    width : 340px;
+    margin: 20px auto 50px;
+}
+
+.sigin_operation a {
+    color          : #808080;
+    font-size      : 16px;
+    text-decoration: underline;
+}
+
+.sigin_operation a:first-of-type {
+    float: left;
+}
+
+.sigin_operation a:last-of-type {
+    float: right;
+}
+
+.sigin_wegame {
+    margin-top : 120px;
+    margin-left: 200px;
+}
+
+/*====================尾部===========================*/
+
+.footer {
+    height    : 120px;
+    background: black;
+}
+
+.f_main {
+    width      : 1200px;
+    margin     : 0 auto;
+    height     : 72px;
+    line-height: 24px;
+    padding-top: 30px;
+}
+
+.fm_left {
+    float: left;
+}
+
+.fm_right {
+    float      : left;
+    margin-left: 40px;
+}
+
+.fmr_nav a {
+    color       : #cdb670;
+    margin-right: 30px;
+}
+
+.fmr_license {
+    color: #868686;
+}
+
+.fmr_license a {
+    margin-right: 15px;
+    color       : #868686;
+}

@@ -1,0 +1,223 @@
+/*===================================公共部分=============================*/
+* {
+    margin         : 0;
+    padding        : 0;
+    list-style     : none;
+    text-decoration: none;
+}
+
+.dpnone {
+    display: none;
+}
+
+.dpblock {
+    display: block;
+}
+
+/*====================================头部=============================*/
+.header {
+    height    : 85px;
+    background: #eff2f2;
+}
+
+.h_main {
+    width : 1300px;
+    margin: 0 auto;
+}
+
+.h_logo img {
+    float : left;
+    margin: 20px;
+}
+
+.game_return {
+    background  : url(https://kefu.xoyo.com/images/game_return.png) no-repeat;
+    width       : 70px;
+    height      : 36px;
+    float       : right;
+    color       : #fff;
+    font-size   : 14px;
+    padding     : 28px 0 0 65px;
+    margin-right: 20px;
+    margin-top  : 0;
+}
+
+/*====================================主体=============================*/
+.content {
+    height    : 520px;
+    background: #9ba7b2;
+}
+
+.c_main {
+    width : 1300px;
+    height: 550px;
+    margin: 0 auto;
+}
+
+.cm_cont {
+    position  : relative;
+    width     : 1300px;
+    min-height: 550px;
+    top       : -15px;
+}
+
+.gamelist_zone {
+    width: 100%;
+}
+
+.gamelist_bg1 {
+    position  : absolute;
+    top       : -19px;
+    left      : 0;
+    width     : 1300px;
+    height    : 20px;
+    background: url(https://kefu.xoyo.com/images/top_gamelist.png) no-repeat center top;
+}
+
+.gamelist_bg2 {
+    position  : absolute;
+    top       : 0;
+    right     : -14px;
+    width     : 14px;
+    height    : 550px;
+    background: url(https://kefu.xoyo.com/images/top_gamelist.png) no-repeat;
+}
+
+.gamelist_bg3 {
+    position  : absolute;
+    bottom    : -65px;
+    left      : 0;
+    width     : 1300px;
+    height    : 65px;
+    background: url(https://kefu.xoyo.com/images/top_gamelist.png) no-repeat center top;
+}
+
+.gamelist_bg4 {
+    position  : absolute;
+    top       : 0;
+    left      : -15px;
+    width     : 15px;
+    height    : 550px;
+    background: url(https://kefu.xoyo.com/images/top_gamelist.png) no-repeat;
+}
+
+.gamelist_cont {
+    width     : 1300px;
+    height    : 550px;
+    background: #fff;
+    position  : relative;
+}
+
+.left_gamelist {
+    width     : 300px;
+    position  : absolute;
+    top       : 0;
+    left      : 0;
+    height    : 550px;
+    z-index   : 100;
+    overflow  : hidden;
+    background: #919ca6b3;
+}
+
+.kind_head {
+    background : #919ca6b3;
+    line-height: 60px;
+    font-size  : 26px;
+    color      : #fff;
+    padding    : 5px 0 5px 40px;
+    cursor     : pointer;
+}
+
+.kind_cont:nth-of-type(2),
+.kind_cont:nth-of-type(3),
+.kind_cont:nth-of-type(4) {
+    background  : rgba(139, 144, 150, .5);
+    height      : 250px;
+    overflow    : auto;
+    display     : none;
+    padding     : 10px;
+    padding-left: 20px;
+}
+
+.dumascroll {
+    /* width: 280px; */
+    height    : 250px;
+    overflow  : hidden;
+    background: #919ca6b3;
+}
+
+.dumaScrollAreaId_Area {
+    background  : #919ca6b3;
+    padding-left: 25px;
+}
+
+.kind_cont:first-of-type {
+    display: block;
+}
+
+#dumaScrollAreaId_Area1 {
+    display: block;
+}
+
+.dumascroll_area {
+    height  : 100%;
+    overflow: hidden;
+}
+
+.dumascroll_bar {
+    position: absolute;
+    top     : 0;
+    right   : 6px;
+    z-index : 9;
+    width   : 6px;
+    height  : 100%;
+    cursor  : pointer;
+    float   : left;
+}
+
+.kind_cont p {
+    line-height : 50px;
+    font-size   : 18px;
+    color       : #fff;
+    padding-left: 20px;
+    cursor      : pointer;
+    text-shadow : 2px 3px 2px #666;
+}
+
+.kind_cont .cur {
+    color: #ffed8c;
+}
+
+/*====================================尾部=============================*/
+.footer {
+    min-width : 1300px;
+    margin-top: 80px;
+    background: #444444;
+    height    : 160px;
+}
+
+.f_main {
+    width      : 820px;
+    margin     : 0 auto;
+    padding-top: 50px;
+    color      : #999999;
+}
+
+.f_mone {
+    height     : 30px;
+    line-height: 30px;
+}
+
+.f_mone a {
+    padding  : 10px;
+    font-size: 12px;
+}
+
+.f_main p {
+    height     : 40px;
+    line-height: 20px;
+}
+
+.f_main p img {
+    vertical-align: middle;
+}

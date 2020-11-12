@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../../CSS/common.css">
+    <link rel="stylesheet" href="../../CSS/index.css">
+    <title>剑网三首页</title>
+</head>
+<body>
+    <div class="header">
+        <div class="h_wrap">
+            <div class="h_logo">
+                <img src="../../Img/index/header/下载.png">
+            </div>
+            <div class="h_text">
+                <img src="../../Img/index/header/slogan.png">
+            </div>
+            <ul class="h_nav">
+                <a href=""></a>
+            </ul>
+        </div>
+    </div>
+    <div class="content">
+        <div class="cn_nav">
+            <ul class="cn_navul">
+            </ul>
+        </div>
+        <div class="cn_main">
+            <div class="cn_bgabove">
+                <img class="cn_bgimg" src="../../Img/index/playviedo/close.png" onclick="videoclose()">
+                <div class="index_video_box">
+                    <div class="index_video_btn" onclick="playvideo()">
+                        <div class="index_video">
+                            <video controls="controls" autoplay="autoplay">
+                                <source src="../../asstes/mp4/fengtianzhengdao-CG.mp4" type="video/ogg" />
+                        </div>
+                    </div>
+                </div>
+                <!--轮播图-->
+                <div class="swiper_slide">
+                    <div class="cn_bigbox">
+                        <div id="container">
+                            <div id="pre"></div>
+                            <div id="next"></div>
+                            <div id="list" style="left:0px">
+                                <a href="#"><img src="../../Img/index/lunbo/1.jpg" width="1000"></a>
+                                <a href="#"><img src="../../Img/index/lunbo/2.jpg" width="1000"></a>
+                                <a href="#"><img src="../../Img/index/lunbo/3.jpg" width="1000"></a>
+                                <a href="#"><img src="../../Img/index/lunbo/4.jpg" width="1000"></a>
+                                <a href="#"><img src="../../Img/index/lunbo/5.jpg" width="1000"></a>
+                            </div>
+                            <div id="dot">
+                                <span data-index="0" class="on">校服同人征集</span>
+                                <span data-index="1">衍天宗门派揭秘</span>
+                                <span data-index="2">国庆、中秋快乐</span>
+                                <span data-index="3">剧情品鉴问答</span>
+                                <span data-index="4">全民预约</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cnm_right">
+                        <div class="cnm_rt">
+                            <div class="cnm_rtt">
+                                <img src="../../asstes/index/download_off.png">
+                            </div>
+                            <div class="cnm_rtf">
+                                <div class="cnm_rtfA">
+                                    <img src="../../asstes/index/reg_off.png">
+                                </div>
+                                <div class="cnm_rtfB">
+                                    <img src="../../asstes/index/chg_off.png">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cnm_rf">
+                            <img src="../../asstes/index/20200917022621211.jpg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="cn_middle">
+            <div class="hot_activity">
+                <div class="left">
+                    <div class="ha_header">
+                        <div class="hc_title">热门活动</div>
+                        <ul class="active_tab_bar">
+                            <li class="active">正在进行</li>
+                            <li class="active">长期活动</li>
+                        </ul>
+                    </div>
+                    <ul class="active_list">
+                    </ul>
+                </div>
+                <div class="right">
+                    <ul class="news_tab_bar">
+                        <li>最新</li>
+                        <li>新闻</li>
+                        <li>活动</li>
+                        <li>公告</li>
+                    </ul>
+                    <ul class="news_tab_info">
+
+                    </ul>
+                </div>
+            </div>
+            <div class="ADV">
+                <div class="left">
+                    <img src="../../asstes/index/20200320051105710.jpg">
+                    <img src="../../asstes/index/20200915025728858.jpg">
+                </div>
+                <div class="right">
+                    <a href="#"> <img src="../../asstes/index/safe.jpg"></a>
+                    <a href="#"> <img src="../../asstes/index/theater.jpg"></a>
+                    <a href="#"> <img src="../../asstes/index/service.jpg"></a>
+                    <a href="#"> <img src="../../asstes/index/old.jpg"></a>
+                </div>
+            </div>
+            <div class="QR_Code">
+                <div class="left">
+                    <img src="../../Img/index/QR_Code/qrcode_index.png">
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="hot_video">
+            <div class="hot_video_wrap">
+
+                <div class="left">
+                    <div class="hc_title">精彩视频</div>
+                    <ul class="video_tab_bar">
+                        <li class="active">推荐</li>
+                        <li class="active juq">剧情</li>
+                        <li class="active saishi">赛事</li>
+                        <li class="active yanfa">研发小剧场</li>
+                    </ul>
+                    <ul class="hotvideo_list">
+                    </ul>
+                </div>
+                <div class="right">
+                    <div class="hcr_title">精彩直播</div>
+                    <ul class="hcr_tab_bar">
+                        <li class="active">周一</li>
+                        <li class="active">周二</li>
+                        <li class="active">周三</li>
+                        <li class="active">周四</li>
+                        <li class="active">周五</li>
+                        <li class="active">周六</li>
+                        <li class="active">周日</li>
+                    </ul>
+                    <ul class="hcr_footer">
+                        <div class="hl_AF">
+                            <div class="hlA_left">
+                                <img src="../../asstes/index/20200908060804559.jpg">
+                            </div>
+                            <div class="hlA_right">
+                                我懒得搞了
+                            </div>
+                        </div>
+
+                        <div class="hl_BF">
+                            <div class="hlA_left">
+                                <img src="../../asstes/index/20200908060804559.jpg">
+                            </div>
+                            <div class="hlA_right">
+                                我懒得搞了
+                            </div>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="tongren_box">
+            <div class="hot_video_wrap">
+                <div class="left">
+                    <div class="tr_header">
+                        <div class="tr_title">同人</div>
+                        <ul class="tr_tab_bar">
+                            <li class="active manhua">漫画/插画</li>
+                            <li class="active music">音乐/有声</li>
+                            <li class="active video">视频/MMD</li>
+                            <li class="active COSPLAY">COSPLAY</li>
+                        </ul>
+                    </div>
+                    <ul class="tr_list"></ul>
+                </div>
+            </div>
+        </div>
+        <div class="cn_footer_2"></div>
+        <div class="team">
+            <div class="team1"></div>
+            <div class="team2"></div>
+            <div class="team3"></div>
+        </div>
+        <div class="cn_footer"></div>
+    </div>
+
+
+    <div class="footer">
+        <div class="f_main">
+            <p>
+                <img src="../../Img/index/footer/logo_1.png">
+                <img src="../../Img/index/footer/logo_2.png">
+                <span class="f_mone">
+                    <a>关于我们</a>|
+                    <a>服务协议</a>|
+                    <a>客服中心</a>|
+                    <a>联系我们</a>|
+                    <a>诚聘英才</a>|
+                </span>
+            </p>
+            <p>
+                <span>
+                    Copyright © 1999-2020成都西山居世游科技有限公司
+                </span>
+            </p>
+            <p>
+                <span>
+                    增值电信业务经营许可证 川B2-20130104川公网安备51019002000850号
+                    文网游备字〔2017〕Ｃ-RPG 0031 号
+                </span>
+            </p>
+            <p>
+                <span>
+                    网络文化经营许可证 川网文[2018]9435-346号
+                    互联网出版许可证 新出网证<川>字027号
+                </span>
+            </p>
+            <p>
+                <span>
+                    信息系统安全等级保护备案证书编号：51010013010
+                    《网络游戏管理暂行办法》第九条内容
+                    《中华人民共和国网络安全法》
+                </span>
+            </p>
+            <p>
+                <img src="../../Img/index/footer/logo_4.png">
+                <img src="../../Img/index/footer/logo_5.png">
+                <span class="pl_span" style="margin-top: 30px;">
+                    婉拒18岁以下未成年用户进入游戏 健康游戏忠告：抵制不良游戏 拒绝盗版游戏 注意自我保护 谨防受骗上当 适度游戏益脑 沉迷游戏伤身<br>
+                    合理安排时间 享受健康生活 进入：未成年人家长监护系统 <a href="#">违法和不良信息举报中心</a>
+                </span>
+            </p>
+        </div>
+
+    </div>
+</body>
+<script src="../../JS/index/index.js"></script>
+<script src="../../JS/index/swiper.js"></script>
+
+
+
+</html>

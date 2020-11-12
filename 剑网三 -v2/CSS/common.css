@@ -1,0 +1,46 @@
+* {
+    margin         : 0;
+    padding        : 0;
+    font-size      : 12px;
+    list-style     : none;
+    text-decoration: none;
+    font-family    : "Microsoft YaHei", SimSun, sans-serif;
+
+}
+
+.active:hover {
+    border-bottom: 3px solid red;
+    ;
+    color         : red;
+    padding-bottom: 1px;
+}
+
+li {
+    cursor: pointer;
+}
+
+/*==============================首页公共部分===========================*/
+.header {
+    height    : 50px;
+    background: black;
+}
+
+.container {
+    width              : 2560px;
+    /* margin-top      : 50px; */
+    height             : 1800px;
+    margin             : 0 auto;
+    background         : no-repeat url(../Img/index/index_bg_2560_tmp.jpg);
+    background-position: -510px 60px;
+    position           : relative;
+
+}
+
+.footer {
+    height    : 250px;
+    background: #222222;
+}
+
+ul li {
+    float: left;
+}
